@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.19296">
+<testcase classname="user is on the adactin hotel app" name="Verifying adactin hotel login with valid credentials" time="5.19296">
+<system-out><![CDATA[Given user is on the facebook page..........................................passed
+When user in on page........................................................passed
+Then verify user page.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

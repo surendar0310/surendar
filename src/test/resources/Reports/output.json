@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verifying facebook  login with valid credentials",
+        "description": "",
+        "id": "user-is-on-the-adactin-hotel-app;verifying-facebook--login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome\u003d96.0.4664.110)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-0SVUDK4\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\New\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:56759}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c9a8a728409e3592aee8de6267ec7eeb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.stepdefinition.StepDefinition.user_is_on_the_facebook_page(StepDefinition.java:26)\r\n\tat ✽.user is on the facebook page(src/test/resources/feature/login.feature:4)\r\n",
+              "duration": 5039440512,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on the facebook page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25066,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user should login",
+            "match": {
+              "location": "StepDefinition.user_should_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "surendar",
+                  "h@123"
+                ]
+              },
+              {
+                "cells": [
+                  "bala",
+                  "52352"
+                ]
+              },
+              {
+                "cells": [
+                  "gopi",
+                  "sdsadsa"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11095,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "verify user page",
+            "match": {
+              "location": "StepDefinition.verify_user_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user is on the adactin hotel app",
+    "description": "",
+    "id": "user-is-on-the-adactin-hotel-app",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/login.feature",
+    "tags": []
+  }
+]
