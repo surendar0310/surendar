@@ -18,7 +18,7 @@ public class Reporting {
 		jsonfiles.add(jsonfile);
 		ReportBuilder builder=new ReportBuilder(jsonfiles, configuration);
 		builder.generateReports();
-		
+		System.out.println("by perth");
 		
 	}
 
